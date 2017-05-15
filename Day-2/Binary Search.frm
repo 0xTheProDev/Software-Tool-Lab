@@ -50,5 +50,6 @@ While iStart <= iEnd
     Else
         iStart = iMid + 1
     End If
+Wend
 MsgBox ("Key not found!")
 End Sub
