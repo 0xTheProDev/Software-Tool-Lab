@@ -41,7 +41,7 @@ Dim iEnd As Integer
 Dim iMid As Integer
 iStart = 1
 iEnd = n
-While iStart <= iEnd
+While iStart < iEnd
     If A(iMid) = key Then
         MsgBox ("Found at: " + CStr(i))
         Exit Sub
